@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.container h1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar ul{
+    display: flex;
+    margin-right: 70px;
+}
+
+.navbar ul li {
+    margin-right: 80px;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+    opacity: O.8;
+    font-size: 20px;
+}
+
+.navbar ul li a:hover {
+    color: black;
+    opacity: 1;
+    border-bottom: 2px solid rgb(37, 114, 145) ;
+}
+
+main {
+    background-color: #F8F8F8;
+    padding-bottom: 60px;
+    border-top: 1px solid rgba(179, 179, 179, 0.151);
+    border-bottom: 1px solid rgba(179, 179, 179, 0.151);
+}
+
+.prImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    background-color: #94AFB5;
+    width: 35%;
+    height: 300px;
+}
+
+.image11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 73%;
+    height: 100%;
+    padding-left: 15%;
+}
+
+.image11 h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.image11 p {
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+}
+
+.image2 {
+    background-image: url(../Images/2151777500.jpg);
+    background-size: cover;
+    width: 35%;
+    height: 300px;
+}
+
+.dxImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.image3 {
+    background-image: url(../Images/89042.jpg);
+    background-size: cover;
+    width: 40%;
+    height: 400px;
+}
+
+.trImage {
+    width: 30%;
+
+}
+
+.image4 {
+    background-color: #94AFB5;
+    width: 98%;
+    height: 195px;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image4 h3 {
+    font-size: 30px;
+}
+
+.image5 {
+    background-image: url(../Images/13642453_5289932.jpg);
+    background-size: cover;
+    width: 98%;
+    height: 195px;
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+.Parcourir {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+#decouvrir {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.Parcourir1 {
+    width: 200px;
+    height: 350px;
+}
+
+.imageParcourir {
+    background-image: url(../Images/uc.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.Parcourir1 h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.send {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgba(255, 0, 0, 0.781);
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 5px;
+
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.send:hover {
+    opacity: 1;
+}
+
+.send a {
+    color: aliceblue;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+#cnfg {
+    margin-top: 60px;
+    width: 100%;
+}
+
+#config {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.configPc {
+    width: 35%;
+}
+
+.configPc h2 {
+    font-size: 35px;
+    margin-bottom: 80px;
+}
+
+.configPc p {
+    font-size: 25px;
+    color: #414141;
+}
+
+
+
+.config {
+    background-image: url(../Images/config.jpg);
+    background-size: cover;
+    width: 30%;
+    height: 400px;
+}
+
+footer {
+    height: 60px;
+}
+
+.footer {
+    border-top: 1px solid rgba(172, 172, 172, 0.466);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 25px;
+}
