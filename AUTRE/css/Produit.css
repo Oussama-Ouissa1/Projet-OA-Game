@@ -4,7 +4,6 @@
 }
 
 
-
 .container{
     display: flex;
     justify-content: space-between;
@@ -23,7 +22,18 @@
 
 .navbar ul{
     display: flex;
-    margin-right: 70px;
+    margin-right: 50px;
+}
+
+.navbar ul img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.navbar ul img:hover {
+    opacity: 1;
 }
 
 .navbar ul li {

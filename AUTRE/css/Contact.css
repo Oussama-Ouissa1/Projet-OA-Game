@@ -26,6 +26,17 @@
     margin-right: 70px;
 }
 
+.navbar ul img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.navbar ul img:hover {
+    opacity: 1;
+}
+
 .navbar ul li {
     margin-right: 80px;
     list-style-type: none;
