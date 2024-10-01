@@ -155,7 +155,7 @@ main {
     margin-top: 50px;
 }
 
-.Parcourir1 {
+#Parcourir1 {
     width: 200px;
     height: 350px;
 }
@@ -167,7 +167,7 @@ main {
     height: 200px;
 }
 
-.Parcourir1 h1 {
+#Parcourir1 h1 {
     text-align: center;
     margin-top: 10px;
     font-size: 35px;
@@ -204,7 +204,7 @@ main {
 
 #config {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;  
     align-items: center;
 }
 
@@ -228,7 +228,7 @@ main {
     background-image: url(../Images/config.jpg);
     background-size: cover;
     width: 30%;
-    height: 400px;
+    height: 300px;
 }
 
 footer {
