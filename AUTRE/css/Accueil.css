@@ -17,6 +17,15 @@
     font-size: 35px;
 }
 
+.nav1 {
+    display: none;
+}
+
+.navbarBurger{
+    display: none;
+}
+
+
 .navbar {
     margin-top: 10px;
 }
@@ -246,4 +255,100 @@ footer {
 
 .footer p {
     font-size: 25px;
+}
+
+
+
+@media (max-width:900px) {
+
+    .nav1 {
+        display: block;
+    }
+    
+    .navbarBurger{
+        display: block;
+    }
+
+    .navbarBurger {
+        position: absolute;
+        width: 97%;
+        margin-top: 60px;
+        height: 50vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .navbarBurger1 {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0, 0.616);
+        height: 100%;
+        width: 400px;
+        overflow: hidden;
+        transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        backdrop-filter: blur(15px);
+        box-shadow: 1px 1px 5px rgb(0, 0, 0);
+        display: none;
+    }
+
+    .navbarBurger ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: 20px;
+        margin-top: 70px;
+        height: 35px;
+        background-color: rgb(64, 183, 204);
+        width: 90%;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    .navbarBurger ul li a {
+        text-decoration: none;
+        color: aliceblue;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nv1 {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    
+    
+    .nv1:hover {
+        opacity: 1;
+    }
+    
+    .nv2 {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        opacity: 0.8;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .nv2:hover {
+        opacity: 1;
+    }
+    
+    .nv3 {
+        width: 35px;
+        height: 35px;
+        margin-left: 60px;
+    }
+
+    .navbar {
+        display: none;
+    }
 }
