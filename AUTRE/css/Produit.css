@@ -4,6 +4,7 @@
 }
 
 
+
 .container{
     display: flex;
     justify-content: space-between;
@@ -16,13 +17,22 @@
     font-size: 35px;
 }
 
+.nav1 {
+    display: none;
+}
+
+.navbarBurger{
+    display: none;
+}
+
+
 .navbar {
     margin-top: 10px;
 }
 
 .navbar ul{
     display: flex;
-    margin-right: 50px;
+    margin-right: 70px;
 }
 
 .navbar ul img {
@@ -197,4 +207,307 @@ footer {
 
 .footer p {
     font-size: 25px;
+}
+
+
+
+@media (min-width:900px) and (max-width:1400px) {
+    .specialPromo {
+        height: 300px;
+    }
+
+    #descGamer {
+        width: 170px;
+        height: 200px;
+    }
+
+    #descGamer h4 {
+        font-size: 25px;
+    }
+
+    .prixGamer p {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+    .prixGamer button {
+        width: 60px;
+        height: 20px;
+    }
+}
+
+
+
+@media (min-width:650px) and (max-width:900px) {
+    .nav1 {
+        display: block;
+    }
+    
+    .navbarBurger{
+        display: block;
+    }
+
+    .navbarBurger {
+        position: absolute;
+        width: 95%;
+        margin-top: 60px;
+        height: 50vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .navbarBurger1 {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0, 0.616);
+        height: 100%;
+        width: 400px;
+        overflow: hidden;
+        transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        backdrop-filter: blur(15px);
+        box-shadow: 1px 1px 5px rgb(0, 0, 0);
+        display: none;
+    }
+
+    .navbarBurger ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: 20px;
+        margin-top: 70px;
+        height: 35px;
+        background-color: rgb(64, 183, 204);
+        width: 90%;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    .navbarBurger ul li a {
+        text-decoration: none;
+        color: aliceblue;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nv1 {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    
+    
+    .nv1:hover {
+        opacity: 1;
+    }
+    
+    .nv2 {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        opacity: 0.8;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .nv2:hover {
+        opacity: 1;
+    }
+    
+    .nv3 {
+        width: 35px;
+        height: 35px;
+        margin-left: 60px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .specialPromo {
+        height: 200px;
+    }
+
+    #descGamer {
+        width: 120px;
+        height: 160px;
+        border-radius: 5px;
+    }
+
+    #descGamer h4 {
+        font-size: 20px;
+    }
+
+    .prixGamer p {
+        margin-right: 5px;
+        font-size: 11px;
+    }
+
+    .prixGamer button {
+        width: 60px;
+        height: 17px;
+    }
+
+}
+
+
+@media (max-width:650px) {
+    .nav1 {
+        display: block;
+    }
+    
+    .navbarBurger{
+        display: block;
+    }
+
+    .navbarBurger {
+        position: absolute;
+        width: 95%;
+        margin-top: 60px;
+        height: 50vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .navbarBurger1 {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0, 0.616);
+        height: 100%;
+        width: 400px;
+        overflow: hidden;
+        transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        backdrop-filter: blur(15px);
+        box-shadow: 1px 1px 5px rgb(0, 0, 0);
+        display: none;
+    }
+
+    .navbarBurger ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: 20px;
+        margin-top: 70px;
+        height: 35px;
+        background-color: rgb(64, 183, 204);
+        width: 90%;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    .navbarBurger ul li a {
+        text-decoration: none;
+        color: aliceblue;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nv1 {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    
+    
+    .nv1:hover {
+        opacity: 1;
+    }
+    
+    .nv2 {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        opacity: 0.8;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .nv2:hover {
+        opacity: 1;
+    }
+    
+    .nv3 {
+        width: 35px;
+        height: 35px;
+        margin-left: 60px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .specialPromo {
+        height: 100px;
+    }
+
+    #descGamer {
+        padding-top: 5px;
+        height: 100px;
+        width: 70px;
+    }
+
+    #descGamer h4 {
+        font-size: 15px;
+    }
+
+    .prixGamer {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    .prixGamer p {
+        width: 100%;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .prixGamer button {
+        width: 60px;
+        height: 16px;
+        margin-left: 5px;
+    }
+
+    .prixGamer button a {
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    #Gamer h1{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    
+    #moniteursGamer h1{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    #chaiseGamer h1{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    #accessoirGamer h1{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 25px;
+    }
 }
